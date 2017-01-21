@@ -4487,6 +4487,7 @@ small {
   background-color: #fff;
   transition: box-shadow .25s;
   border-radius: 2px;
+  border: 20%
 }
 
 .card .card-title {
