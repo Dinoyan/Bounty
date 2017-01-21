@@ -4024,7 +4024,7 @@ nav.nav-extended .nav-wrapper {
 }
 
 nav a {
-  color: #fff;
+  color: blue;
 }
 
 nav i,
@@ -4062,7 +4062,7 @@ nav .button-collapse i {
 
 nav .brand-logo {
   position: absolute;
-  color: #fff;
+  color: blue;
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
