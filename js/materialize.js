@@ -14,6 +14,7 @@ if (typeof(jQuery) === 'undefined') {
     jQuery = $;
   }
 }
+$(".button-collapse").sideNav();
 ;/*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *
