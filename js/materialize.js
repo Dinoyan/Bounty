@@ -14,7 +14,7 @@ if (typeof(jQuery) === 'undefined') {
     jQuery = $;
   }
 }
-$(".button-collapse").sideNav();
+
 ;/*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *
@@ -492,7 +492,6 @@ if (jQuery) {
       /*****  End Helper Functions  *****/
 
 
-
       // Add click handler to only direct collapsible header children
       $this.on('click.collapse', '> li > .collapsible-header', function(e) {
         var element = $(e.target);
@@ -521,6 +520,7 @@ if (jQuery) {
   };
 
   $(document).ready(function(){
+  	$(".button-collapse").sideNav();
     $('.collapsible').collapsible();
   });
 }( jQuery ));;(function ($) {
